@@ -1,0 +1,53 @@
+div {
+    height: 1050px;
+    width: 800px;
+    margin: 0px;
+    background-color: black;
+    border: 5px solid brown;
+    border-radius: 30px;
+    margin-left: 50px;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+h1 {
+    padding: 10px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+    text-align: center; /* Center the text horizontally */
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    text-align: center; /* Center the text */
+    max-width: 600px; /* Optional: limit paragraph width for better readability */
+}
+
+img {
+    border: 5px solid white;
+    margin: 20px auto; /* Center image horizontally and add vertical spacing */
+    max-width: 60%; /* Optional: responsive image sizing */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to pointer to indicate clickability */
+}
+
+audio {
+    display: none; /* Hide audio player UI */
+}
+
+#flower {
+    margin: 5px auto; /* Center image horizontally and add vertical spacing */
+    max-width: 10%; /* Adjust width to fit container */
+    height: auto; /* Maintain aspect ratio */
+}  
